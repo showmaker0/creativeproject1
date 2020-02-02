@@ -20,7 +20,8 @@ header {
   width: 80px;
   margin: 5px 43vw 5px 5vw;;
   display: flex;
-
+  position: relative;
+  z-index: 2;
 }
 
 #logo img {
