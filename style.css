@@ -236,6 +236,31 @@ input[type=range]::-webkit-slider-runnable-track {
   background: #6deb54;
 }
 
+form {
+  color: #d577d9;
+  font-weight: bolder;
+  margin-bottom: 35px;
+  width: 70vw;
+}
+
+form div {
+  padding: 5px;
+  width: 100%;
+}
+
+form textarea {
+  width: 100%;
+  height: 200px;
+}
+
+form input[type=submit] {
+  background-color: #6deb54;
+}
+
+form input[type=submit]:hover {
+  background-color: #17bf41;
+}
+
 @media (min-width: 992px) {
 
   content {
@@ -272,6 +297,10 @@ input[type=range]::-webkit-slider-runnable-track {
   .reviews {
     display: flex;
     margin: 0 15px;
+  }
+
+  form {
+    width: 40vw;
   }
 }
 
