@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Products - CookieCutters</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Sigmar+One&display=swap" rel="stylesheet">
+    <link href="../style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+        <div class="container">
+
+          <a class="navbar-brand" href="../">
+            <div id="logo">
+              <img src="../images/Cookie cutters1.png" alt="Cookie"/>
+              <img src="../images/Cookie cutters2.png" alt="Cutters"/>
+            </div>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse align-items-center mt-5" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto align-items-center">
+              <li class="nav-item">
+                <a class="nav-link" href="../">Home</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="../products">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../login">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <content>
+      <div class="main">
+
+        <h1 class="title color1">Our Products</h1>
+
+        <div class="products">
+          <div class="product-filters">
+
+            <div class="product-filter">
+              <div class="dropdown">
+                <button class="btn dropdown-toggle bcolor2" type="button" data-toggle="dropdown">
+                  Categories<span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Shapes</a></li>
+                  <li><a href="#">Sizes</a></li>
+                  <li><a href="#">Make Your Own</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="product-filter">
+              <label for="priceRange">Price range</label>
+              <div class="priceRange">
+                $1 <input type="range" class="custom-range" id="priceRange"> $50
+              </div>
+            </div>
+
+          </div>
+
+          <div class="product-grid">
+
+            <a href="#" class="product">
+              <img class="product-grid-img" src="../images/product-images/product1.png" alt="product image">
+              <p>Unbroken Heart Cutter</p>
+            </a>
+
+            <a href="#" class="product">
+              <img class="product-grid-img" src="../images/product-images/product2.png" alt="product image">
+              <p>You Are My Sunshine<br>Cookie Cutter</p>
+            </a>
+
+            <a href="#" class="product">
+              <img class="product-grid-img" src="../images/product-images/product4.png" alt="product image">
+              <p>Half Moon Cutter</p>
+            </a>
+
+            <a href="#" class="product">
+              <img class="product-grid-img" src="../images/product-images/product5.png" alt="product image">
+              <p>You Make Me Smile<br>Cookie Cutter</p>
+            </a>
+
+            <a href="#" class="product">
+              <img class="product-grid-img" src="../images/product-images/product6.png" alt="product image">
+              <p>Cloud Cookie Cutter</p>
+            </a>
+
+            <a href="#" class="product">
+              <img class="product-grid-img" src="../images/product-images/product7.png" alt="product image">
+              <p>Road Sign Cutter</p>
+            </a>
+
+            <a href="#" class="product">
+              <img class="product-grid-img" src="../images/product-images/product9.png" alt="product image">
+              <p>Web Browser<br>Cookie Cutter</p>
+            </a>
+
+            <a href="#" class="product">
+              <img class="product-grid-img" src="../images/product-images/product8.png" alt="product image">
+              <p>Custom Cookie Cutters</p>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </content>
+
+    <footer>
+      <p>Copyright &copy; 2020</p>
+      <a href="https://github.com/showmaker0/creativeproject1">Github repository</a>
+    </footer>
+
+  </body>
+</html>
