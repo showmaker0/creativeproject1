@@ -253,12 +253,21 @@ form textarea {
   height: 200px;
 }
 
+form input[type=password] {
+  margin-bottom: 24px;
+}
+
 form input[type=submit] {
   background-color: #6deb54;
 }
 
 form input[type=submit]:hover {
   background-color: #17bf41;
+}
+
+.center div {
+  text-align: center;
+  margin: 5px;
 }
 
 @media (min-width: 992px) {
@@ -324,6 +333,7 @@ form input[type=submit]:hover {
 
   .product {
     width: 204px;
+    height: 260px;
   }
 
   .product-filters {
